@@ -8,18 +8,18 @@ function calculateBMI() {
 	const height = parseFloat(heightInput.value) / 100;
 	const bmi = weight / (height ** 2);
 	const bmiStatus = getBMIStatus(bmi);
-	resultDiv.innerHTML = `Your BMI is ${bmi.toFixed(1)}. You are ${bmiStatus}.`;
+	resultDiv.innerHTML = `Your <b>BMI</b> is <b>${bmi.toFixed(1)}</b> which means You are <b>${bmiStatus}</b>.`;
 }
 
 function getBMIStatus(bmi) {
 	if (bmi < 18.5) {
-		return "underweight";
+		return "Underweight";
 	} else if (bmi < 25) {
-		return "normal weight";
+		return "Normal weight";
 	} else if (bmi < 30) {
-		return "overweight";
+		return "Overweight";
 	} else {
-		return "obese";
+		return "Obesity";
 	}
 }
 
