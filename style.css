@@ -1,5 +1,6 @@
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #2C3333;
 }
 
 .container {
@@ -26,13 +27,13 @@ form {
 }
 
 label {
-	font-size: 24px;
+	font-size: 20px;
 	margin-bottom: 10px;
 	text-align: left;
 }
 
 input {
-	font-size: 16px;
+	font-size: 15px;
 	padding: 10px;
 	margin-bottom: 20px;
 	border: 2px solid #ccc;
@@ -41,19 +42,19 @@ input {
 
 button {
 	display: flex;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 10px 10px;
 	margin-top: 30px;
 	border: none;
 	border-radius: 5px;
-	background-color: #576CBC;
+	background-color: #655DBB;
 	color: white;
 	cursor: pointer;
 	transition: all 0.2s ease;
 }
 
 button:hover {
-	background-color: #576CBC;
+	background-color: #655DBB;
 }
 
 #result {
